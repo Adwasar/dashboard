@@ -14,7 +14,7 @@
 
 .side-bar {
   width: 250px;
-  min-height: 1000px;
+  min-height: 994px;
   background-color: #ffffff;
   box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
 }
@@ -25,16 +25,20 @@
   cursor: pointer;
 
   .logo__text {
-    margin-left: 9px;
+    position: relative;
+    top: 1px;
+    margin-left: 8px;
     font-size: 26px;
     font-weight: 600;
+    letter-spacing: 0.01em;
 
     &::after {
       content: 'v.01';
       font-size: 10px;
       font-weight: 500;
-      margin-left: 5px;
+      margin-left: 4px;
       color: #838383;
+      letter-spacing: -0.01em;
     }
   }
 }
@@ -50,23 +54,15 @@
   box-shadow: 0 0 0;
 
   .nav-board__element {
-    padding: 12px;
+    padding: 11px;
     margin-bottom: 18px;
     display: flex;
     align-items: center;
     border-radius: 8px;
     font-size: 14px;
     color: #9197b3;
-    height: 22px;
+    height: 24px;
     cursor: pointer;
-
-    img {
-      margin-left: -1px;
-    }
-
-    svg {
-      margin-left: -1px;
-    }
 
     span {
       margin-left: 14px;
@@ -75,10 +71,38 @@
     .nav-board__space {
       width: 100%;
     }
+
+    .nav-board__vector {
+      margin-right: 2px;
+    }
   }
 
   .nav-board__element_active {
     background: #5932ea;
     color: #fff;
+  }
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  .user__info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+
+    .user__name {
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .user__position {
+      position: relative;
+      top: -1px;
+      font-size: 12px;
+      font-weight: 400;
+      color: #757575;
+      letter-spacing: 0.01em;
+    }
   }
 }
