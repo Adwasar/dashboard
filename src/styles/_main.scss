@@ -75,11 +75,31 @@
     font-size: 14px;
     border-collapse: collapse;
 
+    .table__status-indicator {
+      width: 79px;
+      height: 27px;
+      margin-left: auto;
+      margin-right: auto;
+      background: #ffc5c5;
+      border: 1px solid #df0404;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #df0404;
+    }
+
+    .table__status-indicator_active {
+      background: rgba(22, 192, 152, 0.38);
+      border: 1px solid #00b087;
+      color: #008767;
+    }
+
     .table__column-1 {
-      width: 170px;
+      width: 169px;
     }
     .table__column-2 {
-      width: 129px;
+      width: 130px;
     }
     .table__column-3 {
       width: 153px;
@@ -88,10 +108,11 @@
       width: 205px;
     }
     .table__column-5 {
-      width: 150px;
+      width: 138px;
     }
     .table__column-6 {
-      width: auto;
+      text-align: center;
+      width: 75px;
     }
 
     th {
@@ -154,6 +175,7 @@
         border: 1px solid #eeeeee;
         border-radius: 4px;
         font-size: 12px;
+        cursor: pointer;
       }
 
       .page-btn_active {
