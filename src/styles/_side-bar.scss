@@ -76,6 +76,8 @@
 .user {
   display: flex;
   align-items: center;
+  cursor: pointer;
+
   .user__info {
     display: flex;
     flex-direction: column;
