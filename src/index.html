@@ -5,219 +5,216 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
+  <link rel="icon" href="imgs/icons/logo.svg">
+  <title>Dashboard</title>
 </head>
 
 <body>
   <div class="content">
-    <div class="wrapper">
-      <aside class="side-bar wrapper__side-bar">
-        <div class="logo">
-          <img src="imgs/icons/logo.svg" alt="Logo" class="logo__img"></img>
-          <span class="logo__text">Dashboard</span>
-        </div>
-        <div class="nav-board side-bar__nav-board">
-          <nav class="nav-board__elements">
-            <div class="nav-board__element">
-              <img src="imgs/icons/key-square.svg" alt="Dashboard">
-              <span>Dashboard</span>
-              <span class="nav-board__space"></span>
-            </div>
-            <div class="nav-board__element">
-              <img src="imgs/icons/3d-square.svg" alt="Product">
-              <span>Product</span>
-              <span class="nav-board__space"></span>
-              <img class="nav-board__vector" src="imgs/icons/vector.svg" alt="vector">
-            </div>
-            <div class="nav-board__element nav-board__element_active">
-              <img src="imgs/icons/user-square.svg" alt="Customers">
-              <span>Customers</span>
-              <span class="nav-board__space"></span>
-              <img class="nav-board__vector" src="imgs/icons/vector-white.svg" alt="vector">
-            </div>
-            <div class="nav-board__element">
-              <img src="imgs/icons/wallet-money.svg" alt="Income">
-              <span>Income</span>
-              <span class="nav-board__space"></span>
-              <img class="nav-board__vector" src="imgs/icons/vector.svg" alt="vector">
-            </div>
-            <div class="nav-board__element">
-              <img src="imgs/icons/discount-shape.svg" alt="Promote">
-              <span>Promote</span>
-              <span class="nav-board__space"></span>
-              <img class="nav-board__vector" src="imgs/icons/vector.svg" alt="vector">
-            </div>
-            <div class="nav-board__element">
-              <img src="imgs/icons/message-question.svg" alt="Help">
-              <span>Help</span>
-              <span class="nav-board__space"></span>
-              <img class="nav-board__vector" src="imgs/icons/vector.svg" alt="vector">
-            </div>
-          </nav>
-          <div class="user">
-            <img class="user__avatar" src="imgs/avatar.png" alt="Avatar">
-            <div class="user__info">
-              <span class="user__name">Evano</span>
-              <span class="user__position">Project Manager</span>
-            </div>
+    <aside class="side-bar wrapper__side-bar">
+      <div class="logo">
+        <img src="imgs/icons/logo.svg" alt="Logo" class="logo__img"></img>
+        <span class="logo__text">Dashboard</span>
+      </div>
+      <div class="nav-board side-bar__nav-board">
+        <nav class="nav-board__elements">
+          <div class="nav-board__element">
+            <img src="imgs/icons/key-square.svg" alt="Dashboard">
+            <span>Dashboard</span>
+            <span class="nav-board__space"></span>
+          </div>
+          <div class="nav-board__element">
+            <img src="imgs/icons/3d-square.svg" alt="Product">
+            <span>Product</span>
+            <span class="nav-board__space"></span>
+            <img class="nav-board__vector" src="imgs/icons/vector.svg" alt="vector">
+          </div>
+          <div class="nav-board__element nav-board__element_active">
+            <img src="imgs/icons/user-square.svg" alt="Customers">
+            <span>Customers</span>
+            <span class="nav-board__space"></span>
+            <img class="nav-board__vector" src="imgs/icons/vector-white.svg" alt="vector">
+          </div>
+          <div class="nav-board__element">
+            <img src="imgs/icons/wallet-money.svg" alt="Income">
+            <span>Income</span>
+            <span class="nav-board__space"></span>
+            <img class="nav-board__vector" src="imgs/icons/vector.svg" alt="vector">
+          </div>
+          <div class="nav-board__element">
+            <img src="imgs/icons/discount-shape.svg" alt="Promote">
+            <span>Promote</span>
+            <span class="nav-board__space"></span>
+            <img class="nav-board__vector" src="imgs/icons/vector.svg" alt="vector">
+          </div>
+          <div class="nav-board__element">
+            <img src="imgs/icons/message-question.svg" alt="Help">
+            <span>Help</span>
+            <span class="nav-board__space"></span>
+            <img class="nav-board__vector" src="imgs/icons/vector.svg" alt="vector">
+          </div>
+        </nav>
+        <div class="user">
+          <img class="user__avatar" src="imgs/avatar.png" alt="Avatar">
+          <div class="user__info">
+            <span class="user__name">Evano</span>
+            <span class="user__position">Project Manager</span>
           </div>
         </div>
-      </aside>
-    </div>
-    <div class="wrapper">
-      <main class="main wrapper__main">
-        <h1 class="greetings">Hello Evano 👋🏼,</h1>
+      </div>
+    </aside>
+    <main class="main wrapper__main">
+      <h1 class="greetings">Hello Evano 👋🏼,</h1>
 
-        <div class="customers-wrapper">
-          <div class="customers main__customers">
-            <div class="customers__header">
-              <div class="customers__title">
-                <h1 class="customers__title-name">All Customers</h1>
-                <span class="customers__members-status">Active Members</span>
-              </div>
-              <div class="customers__input">
-                <img src="imgs/icons/search.svg" alt="#">
-                <input type="text" placeholder="Search">
-              </div>
+      <div class="customers-wrapper">
+        <div class="customers main__customers">
+          <div class="customers__header">
+            <div class="customers__title">
+              <h1 class="customers__title-name">All Customers</h1>
+              <span class="customers__members-status">Active Members</span>
             </div>
-            <div class="table-wrapper">
-              <table class="table customers__table">
-                <thead>
-                  <tr>
-                    <th class="table__column-1">Customer Name</th>
-                    <th class="table__column-2">Company</th>
-                    <th class="table__column-3">Phone Number</th>
-                    <th class="table__column-4">Email</th>
-                    <th class="table__column-5">Country</th>
-                    <th class="table__column-6">Status</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="table__column-1">Jane Cooper</td>
-                    <td class="table__column-2">Microsoft</td>
-                    <td class="table__column-3">(225) 555-0118</td>
-                    <td class="table__column-4">jane@microsoft.com</td>
-                    <td class="table__column-5">United States</td>
-                    <td class="table__column-6">
-                      <div class="table__status-indicator table__status-indicator_active">Active</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Floyd Miles</td>
-                    <td>Yahoo</td>
-                    <td>(205) 555-0100</td>
-                    <td>floyd@yahoo.com</td>
-                    <td>Kiribati</td>
-                    <td>
-                      <div class="table__status-indicator">Inactive</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Ronald Richards</td>
-                    <td>Adobe</td>
-                    <td>(302) 555-0107</td>
-                    <td>ronald@adobe.com</td>
-                    <td>Israel</td>
-                    <td>
-                      <div class="table__status-indicator">Inactive</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Marvin McKinney</td>
-                    <td>Tesla</td>
-                    <td>(252) 555-0126</td>
-                    <td>marvin@tesla.com</td>
-                    <td>Iran</td>
-                    <td>
-                      <div class="table__status-indicator table__status-indicator_active">Active</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Jerome Bell</td>
-                    <td>Google</td>
-                    <td>(629) 555-0129</td>
-                    <td>jerome@google.com</td>
-                    <td>Réunion</td>
-                    <td>
-                      <div class="table__status-indicator table__status-indicator_active">Active</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Kathryn Murphy</td>
-                    <td>Microsoft</td>
-                    <td>(406) 555-0120</td>
-                    <td>kathryn@microsoft.com</td>
-                    <td>Curaçao</td>
-                    <td>
-                      <div class="table__status-indicator table__status-indicator_active">Active</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Jacob Jones</td>
-                    <td>Yahoo</td>
-                    <td>(208) 555-0112</td>
-                    <td>jacob@yahoo.com</td>
-                    <td>Brazil</td>
-                    <td>
-                      <div class="table__status-indicator table__status-indicator_active">Active</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Kristin Watson</td>
-                    <td>Facebook</td>
-                    <td>(704) 555-0127</td>
-                    <td>kristin@facebook.com</td>
-                    <td>Åland Islands</td>
-                    <td>
-                      <div class="table__status-indicator">Inactive</div>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            <div class="customers__pagination">
-              <div class="customers__showing-data">Showing data 1 to 8 of &nbsp;256K entries</div>
-              <nav class="customers__pages">
-                <button class="page-btn">&lt;</button>
-                <button class="page-btn page-btn_active">1</button>
-                <button class="page-btn">2</button>
-                <button class="page-btn">3</button>
-                <button class="page-btn">4</button>
-                <span>...</span>
-                <button class="page-btn">40</button>
-                <button class="page-btn">&gt;</button>
-              </nav>
+            <div class="customers__input">
+              <img src="imgs/icons/search.svg" alt="#">
+              <input type="text" placeholder="Search">
             </div>
           </div>
+          <div class="table-wrapper">
+            <table class="table customers__table">
+              <thead>
+                <tr>
+                  <th class="table__column-1">Customer Name</th>
+                  <th class="table__column-2">Company</th>
+                  <th class="table__column-3">Phone Number</th>
+                  <th class="table__column-4">Email</th>
+                  <th class="table__column-5">Country</th>
+                  <th class="table__column-6">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Jane Cooper</td>
+                  <td>Microsoft</td>
+                  <td>(225) 555-0118</td>
+                  <td>jane@microsoft.com</td>
+                  <td>United States</td>
+                  <td>
+                    <div class="table__status-indicator table__status-indicator_active">Active</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Floyd Miles</td>
+                  <td>Yahoo</td>
+                  <td>(205) 555-0100</td>
+                  <td>floyd@yahoo.com</td>
+                  <td>Kiribati</td>
+                  <td>
+                    <div class="table__status-indicator">Inactive</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Ronald Richards</td>
+                  <td>Adobe</td>
+                  <td>(302) 555-0107</td>
+                  <td>ronald@adobe.com</td>
+                  <td>Israel</td>
+                  <td>
+                    <div class="table__status-indicator">Inactive</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Marvin McKinney</td>
+                  <td>Tesla</td>
+                  <td>(252) 555-0126</td>
+                  <td>marvin@tesla.com</td>
+                  <td>Iran</td>
+                  <td>
+                    <div class="table__status-indicator table__status-indicator_active">Active</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Jerome Bell</td>
+                  <td>Google</td>
+                  <td>(629) 555-0129</td>
+                  <td>jerome@google.com</td>
+                  <td>Réunion</td>
+                  <td>
+                    <div class="table__status-indicator table__status-indicator_active">Active</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Kathryn Murphy</td>
+                  <td>Microsoft</td>
+                  <td>(406) 555-0120</td>
+                  <td>kathryn@microsoft.com</td>
+                  <td>Curaçao</td>
+                  <td>
+                    <div class="table__status-indicator table__status-indicator_active">Active</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Jacob Jones</td>
+                  <td>Yahoo</td>
+                  <td>(208) 555-0112</td>
+                  <td>jacob@yahoo.com</td>
+                  <td>Brazil</td>
+                  <td>
+                    <div class="table__status-indicator table__status-indicator_active">Active</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Kristin Watson</td>
+                  <td>Facebook</td>
+                  <td>(704) 555-0127</td>
+                  <td>kristin@facebook.com</td>
+                  <td>Åland Islands</td>
+                  <td>
+                    <div class="table__status-indicator">Inactive</div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="customers__pagination">
+            <div class="customers__showing-data">Showing data 1 to 8 of &nbsp;256K entries</div>
+            <nav class="customers__pages">
+              <button class="page-btn">&lt;</button>
+              <button class="page-btn page-btn_active">1</button>
+              <button class="page-btn">2</button>
+              <button class="page-btn">3</button>
+              <button class="page-btn">4</button>
+              <span>...</span>
+              <button class="page-btn">40</button>
+              <button class="page-btn">&gt;</button>
+            </nav>
+          </div>
         </div>
+      </div>
+    </main>
 
-      </main>
+    <div class="mini-bar-wrapper">
+      <nav class="mini-bar">
+        <div class="mini-bar__element">
+          <img src="imgs/icons/key-square.svg" alt="Dashboard">
+        </div>
+        <div class="mini-bar__element">
+          <img src="imgs/icons/3d-square.svg" alt="Product">
+        </div>
+        <div class="mini-bar__element mini-bar__element_active">
+          <img src="imgs/icons/user-square.svg" alt="Customers">
+        </div>
+        <div class="mini-bar__element">
+          <img src="imgs/icons/wallet-money.svg" alt="Income">
+        </div>
+        <div class="mini-bar__element">
+          <img src="imgs/icons/discount-shape.svg" alt="Promote">
+        </div>
+        <div class="mini-bar__element">
+          <img src="imgs/icons/message-question.svg" alt="Help">
+        </div>
+      </nav>
     </div>
   </div>
-  <div class="mini-bar-wrapper">
-    <nav class="mini-bar">
-      <div class="mini-bar__element">
-        <img src="imgs/icons/key-square.svg" alt="Dashboard">
-      </div>
-      <div class="mini-bar__element">
-        <img src="imgs/icons/3d-square.svg" alt="Product">
-      </div>
-      <div class="mini-bar__element mini-bar__element_active">
-        <img src="imgs/icons/user-square.svg" alt="Customers">
-      </div>
-      <div class="mini-bar__element">
-        <img src="imgs/icons/wallet-money.svg" alt="Income">
-      </div>
-      <div class="mini-bar__element">
-        <img src="imgs/icons/discount-shape.svg" alt="Promote">
-      </div>
-      <div class="mini-bar__element">
-        <img src="imgs/icons/message-question.svg" alt="Help">
-      </div>
-    </nav>
-  </div>
+
 </body>
 
 </html>
