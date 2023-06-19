@@ -1,8 +1,8 @@
 .wrapper__main {
-  margin: 41px 20px 0 71px;
+  margin: 45px 20px 0 71px;
 
   @media (max-width: 1370px) {
-    margin: 41px 20px 0 auto;
+    margin: 45px 20px 0 auto;
   }
 
   @media (max-width: 1370px) {
@@ -45,16 +45,16 @@
 }
 
 .main__customers {
-  margin-top: 51px;
+  margin-top: 56px;
 
   @media (max-width: 1312px) {
-    margin: 51px auto;
+    margin: 56px auto;
   }
 }
 
 .customers {
   position: relative;
-  padding: 30px 38px;
+  padding: 29px 37px;
   width: 892px;
   background: #ffffff;
   box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
@@ -82,7 +82,7 @@
 
     .customers__members-status {
       position: relative;
-      top: 5px;
+      top: 12px;
       font-weight: 400;
       font-size: 14px;
       color: #16c098;
@@ -90,7 +90,7 @@
     }
 
     .customers__input {
-      margin-top: 9px;
+      margin-top: 14px;
       margin-right: 15px;
       display: flex;
       align-items: center;
@@ -100,7 +100,7 @@
       height: 38px;
 
       @media (max-width: 540px) {
-        margin: 25px auto;
+        margin: 25px auto 10px;
       }
 
       img {
@@ -120,7 +120,11 @@
   }
 
   .customers__table {
-    margin-top: 31px;
+    margin-top: 36px;
+
+    @media (max-width: 1312px) {
+      margin-top: 20px;
+    }
   }
 
   .table {
@@ -128,10 +132,11 @@
     text-align: left;
     font-size: 14px;
     border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
 
     @media (max-width: 1312px) {
       width: 800px;
-      margin: 0 auto;
     }
 
     .table__column-1 {
@@ -150,7 +155,6 @@
       width: 138px;
     }
     .table__column-6 {
-      text-align: center;
       width: 75px;
     }
 
@@ -204,12 +208,12 @@
       color: #008767;
     }
   }
-
   .customers__pagination {
     margin-top: 31px;
     margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     @media (max-width: 660px) {
       display: block;
@@ -229,7 +233,7 @@
 
     .customers__pages {
       margin-top: -2px;
-      margin-right: 3px;
+      margin-right: 2px;
       display: flex;
 
       @media (max-width: 660px) {
@@ -257,7 +261,7 @@
       }
 
       span {
-        margin-top: 4px;
+        margin-top: 6px;
         margin-left: 14px;
         font-size: 14px;
       }
